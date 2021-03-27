@@ -16,3 +16,14 @@ countingSheep(10)
 
 
 
+
+/*Write a function called powerCalculator() that takes two parameters, an integer as a base, and another integer as an exponent. The function returns the value of the base raised to the power of the exponent. Use only exponents greater than or equal to 0 (positive numbers)*/
+
+powerCalculator = (x, y) => {
+    if (y < 0 ) {
+        return console.log('exponent should be >= 0')
+    }
+    return console.log(Math.pow(x, y))
+}
+
+powerCalculator(4, 2)
